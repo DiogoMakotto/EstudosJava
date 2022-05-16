@@ -1,18 +1,16 @@
-public class Condicionais.java {
-    
+public class Condicionais{
     public static void main(String[] args) {
-        System.out.println("Aprendendo a utilizar condicionais");
+        System.out.println("testando condicionais");
         int idade = 20;
-        if (idade >= 18) {
-            System.out.println("Você tem mais de 18 anos");
-            System.out.println("Seja bem vindo");
-        }else {
-            if(quantidadePessoas >= 2) {
-                System.out.println("você não tem 18, mas " + "pode entrar, pois está acompanhado");
-            } else {
+                int quantidadePessoas = 3;
+        boolean acompanhado = quantidadePessoas >= 2;
+
+                System.out.println("valor de acompanhado = " + acompanhado);
+
+        if (idade >= 18 && acompanhado) {
+            System.out.println("seja bem vindo");
+        } else {
             System.out.println("infelizmente você não pode entrar");
-            }
         }
     }
-
 }
