@@ -18,7 +18,7 @@ public class ConversaoDeValores {
         //numeros em byte
         byte b = 127;
         
-        //famoso valor 0.30000000000000004
+        //valor 0.30000000000000004
 
         double valor1 = 0.2;
         double valor2 = 0.1;
