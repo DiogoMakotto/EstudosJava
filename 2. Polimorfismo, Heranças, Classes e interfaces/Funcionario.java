@@ -1,9 +1,11 @@
 
 public class Funcionario {
+
 	private String nome;
 	private String cpf;
-	private double salario;
+	protected double salario;
 
+		//protected utilizado para liberar acesso aos filhos da classe mãe
 	
     //função de bonificação do nosso funcionario 
     public double getBonificacao(){

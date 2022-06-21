@@ -8,5 +8,6 @@ public class testeFuncionario {
 
         System.out.println(diogo.getNome());
         System.out.println(diogo.getBonificacao());
+        
 	}
 }
