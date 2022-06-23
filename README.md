@@ -73,10 +73,8 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
   
 ---
 ### Autor
----
-
-
-Feito com ❤️ por Diogo Makotto 👋 Entre em contato!
+	Feito com ❤️ por Diogo Makotto 👋 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diogomakotto/)](https://www.linkedin.com/in/diogomakotto/) 
 [![Gmail Badge](https://img.shields.io/badge/-diogomakotto@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tdiogomakotto@gmail.com)](mailto:diogomakotto@gmail.com)
+---
