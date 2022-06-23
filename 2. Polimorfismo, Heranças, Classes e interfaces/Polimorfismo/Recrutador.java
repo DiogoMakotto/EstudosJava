@@ -1,3 +1,4 @@
+package Polimorfismo;
 public class Recrutador extends Funcionario {
 
     public double getBonificacao() {
