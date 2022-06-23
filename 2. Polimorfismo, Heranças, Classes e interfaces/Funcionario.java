@@ -3,13 +3,13 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	protected double salario;
+	private double salario;
 
 		//protected utilizado para liberar acesso aos filhos da classe mãe
 	
     //função de bonificação do nosso funcionario 
     public double getBonificacao(){
-    	return this.salario *0.1;
+    	return this.salario *0.05;
     }
     
     //getters e seters

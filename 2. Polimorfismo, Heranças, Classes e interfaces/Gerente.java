@@ -21,7 +21,7 @@ public class Gerente extends Funcionario{
 
     //função de bonificação do nosso funcionario do gerente
     public double getBonificacao(){
-    	return super.salario; 
+    	return super.getBonificacao() + super.getSalario(); 
          //boa pratica utilizar super no lugar de this quando o atribututo é de outra classe
     }
     
