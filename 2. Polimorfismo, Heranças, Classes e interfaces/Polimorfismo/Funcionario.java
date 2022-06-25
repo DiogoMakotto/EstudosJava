@@ -1,5 +1,6 @@
 package Polimorfismo;
 
+//abstract na classe significa que ela não tem instancia propria
 public abstract class Funcionario {
 
 	private String nome;
@@ -8,10 +9,8 @@ public abstract class Funcionario {
 
 		//protected utilizado para liberar acesso aos filhos da classe mãe
 	
-    //função de bonificação do nosso funcionario 
-    public double getBonificacao(){
-    	return this.salario *0.05;
-    }
+    //função de bonificação do nosso funcionario + abstract significa que o metodo não tem corpo (garante que os filhos vão utilizar)
+    public abstract double getBonificacao();
     
     //getters e seters
     public String getNome() {

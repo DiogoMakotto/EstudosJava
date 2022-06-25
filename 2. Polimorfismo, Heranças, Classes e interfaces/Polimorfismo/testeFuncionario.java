@@ -2,7 +2,7 @@ package Polimorfismo;
 public class testeFuncionario {
     public static void main(String[] args) {
 
-        Funcionario diogo = new Gerente();
+        Gerente diogo = new Gerente();
         diogo.setNome("Diogo Makotto");
         diogo.setCpf("12345678-9");
         diogo.setSalario(1000.00);
