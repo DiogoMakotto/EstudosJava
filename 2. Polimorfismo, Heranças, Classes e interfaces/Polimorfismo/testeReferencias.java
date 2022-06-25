@@ -8,21 +8,15 @@ public class testeReferencias {
         g1.setNome("Antonio");
         g1.setSalario(5000.0);
         
-        Funcionario f = new Funcionario();
-        f.setSalario(2000.0);
-
         Recrutador r = new Recrutador();
         r.setSalario(3000.0);
 
         controleBonificacao controle = new controleBonificacao();
         controle.registra(g1);
-        controle.registra(f);
         controle.registra(r);
 
         System.out.println(controle.getSomatoria());
 
-        // String nome = g1.getNome();
-        // System.out.println(nome);
     }
 
 }
