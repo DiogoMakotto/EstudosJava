@@ -1,7 +1,7 @@
 package Polimorfismo;
 
 //extends é utilizado para atribuir uma classe mãe para uma filha
-public class Gerente extends FuncionarioAutenticado {
+public class Gerente extends Funcionario {
 
     // função de bonificação do nosso funcionario do gerente
     public double getBonificacao() {

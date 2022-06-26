@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public class Administrador extends FuncionarioAutenticado {
+public class Administrador extends Funcionario {
 
     @Override
     public double getBonificacao() {

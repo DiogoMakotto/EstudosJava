@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public abstract class FuncionarioAutenticado extends Funcionario {
+public abstract class Autenticacao {
 
     private int senha;
 

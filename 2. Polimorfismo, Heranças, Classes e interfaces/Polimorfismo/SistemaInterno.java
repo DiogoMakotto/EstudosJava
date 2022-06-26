@@ -5,7 +5,7 @@ package Polimorfismo;
 
         private int senha = 222;
 
-        public void autentica(FuncionarioAutenticado fa){
+        public void autentica(Autenticacao fa){
             boolean autenticou = fa.autentica(this.senha);
             if(autenticou) {
                 System.out.println("Acesso liberado");
