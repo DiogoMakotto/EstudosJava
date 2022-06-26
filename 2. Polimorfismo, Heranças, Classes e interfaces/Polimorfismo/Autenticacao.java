@@ -1,23 +1,15 @@
 package Polimorfismo;
 
-public abstract class Autenticacao {
+//para interfaces precisamos deixar tudo abstratos sem componentes concretos
+        //quem assina o contrato, precisa implementar todos metodos
+            //setSenha
+            //autentica
+public abstract interface Autenticacao {
 
-    private int senha;
-
-    public int getSenha() {
-        return senha;
-    }
-
-    public void setSenha(int senha) {
-        this.senha = senha;
-    }
+    public abstract void setSenha(int senha);
 
     // autenticação de senha
-    public boolean autentica(int senha) {
-        if (this.senha == senha) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+    public abstract boolean autentica(int senha);
+
 }
+
