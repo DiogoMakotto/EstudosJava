@@ -2,19 +2,19 @@ package Polimorfismo;
 
 public class Cliente implements Autenticacao {
 
-    private int senha;
+    private Autenticavel autenticador;
+
+    public Cliente(){
+        this.autenticador = new Autenticavel();
+    }
 
     @Override
     public void setSenha(int senha) {
-        this.senha = senha;
+        this.autenticador.setSenha(senha);
     }
 
     @Override
     public boolean autentica(int senha) {
-        if (this.senha == senha) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.autenticador.autentica(senha);
     }
 }
