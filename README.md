@@ -66,6 +66,14 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
   - Classes 
   - Interfaces
   ````  
+  3. [Exceções: Criar, lançar e controlar exceções](https://github.com/DiogoMakotto/EstudosJava/tree/main/3.%20Exce%C3%A7%C3%B5es)
+   ````
+  - Pilha de execução  
+  - Lançando exceções
+  - Checked e Unchecked
+  - Aplicando exceções
+  - Finally e try with resources
+  ````  
 
 <h4 align="center"> 
 	🚧  mais topicos em breve 🚀 Em construção...  🚧
