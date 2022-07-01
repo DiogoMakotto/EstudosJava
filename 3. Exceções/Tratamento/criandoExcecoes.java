@@ -5,7 +5,7 @@ public class criandoExcecoes {
         System.out.println("Ini do main");
         try{
             metodo1();
-        } catch(ArithmeticException | NullPointerException ex) {
+        } catch(ArithmeticException | NullPointerException | MinhaExcecao ex) {
             String msg = ex.getMessage();
             System.out.println("Exception " + msg);
 
@@ -23,8 +23,7 @@ public class criandoExcecoes {
     private static void metodo2() {
         System.out.println("Ini do metodo2");
         
-        ArithmeticException ex = new ArithmeticException("deu ruim");
-        throw ex;   //throw é comparado com um ativa ou joga a exceção
+        throw new MinhaExcecao("deu muito ruim");   //throw é comparado com um ativa ou joga a exceção
 
         //System.out.println("Fim do metodo2");
     }
