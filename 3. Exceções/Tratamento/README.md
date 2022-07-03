@@ -20,3 +20,14 @@ Por sua vez, o metodo1() também não possui o bloco de código para tratar essa
 ![Interface](./assets/diagrama-bomba-excecao.png)
   
 </div>
+
+## Hierarquia de exceções
+
+No Java, todas as classes de exceção herdam direta ou indiretamente da classe Exception, formando uma hierarquia demonstrada 
+<div align="center">    
+    
+![Interface](./assets/hierarquia-error.png)
+  
+</div>
+
+Artigo da DevMedia mais detalhado sobre [Exceções.](https://www.devmedia.com.br/trabalhando-com-excecoes-em-java/27601)
