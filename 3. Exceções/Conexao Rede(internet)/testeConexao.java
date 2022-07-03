@@ -10,7 +10,7 @@ public class testeConexao {
             con.leDados();
         } catch(IllegalStateException ex) {
             System.out.println("Deu erro na conexao");
-        } finally {
+        } finally { //JVM sempre garante que o finally será executado
             con.fecha();
         }
     }
