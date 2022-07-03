@@ -5,7 +5,7 @@ public class criandoExcecoes {
         System.out.println("Ini do main");
         try{
             metodo1();
-        } catch(ArithmeticException | NullPointerException | MinhaExcecao ex) {
+        } catch(Exception ex) { //catch generico é somente Exception pega todas exceções
             String msg = ex.getMessage();
             System.out.println("Exception " + msg);
 
