@@ -2,8 +2,8 @@ package Tratamento;
 
 public class exemplo {
 
-    void teste(){
-        
+    void teste() throws MinhaExcecao{ 
+
     }
     
 }
