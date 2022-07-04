@@ -1,4 +1,4 @@
-package modelo;
+package br.com.ByteBank.banco.modelo;
 
 public class saldoInsuficiente extends RuntimeException{
     

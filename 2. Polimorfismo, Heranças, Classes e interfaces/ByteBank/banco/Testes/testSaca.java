@@ -1,4 +1,6 @@
-package Testes;
+package br.com.ByteBank.banco.Testes;
+
+import br.com.ByteBank.banco.modelo.*;
 
 import javax.security.sasl.SaslException;
 
