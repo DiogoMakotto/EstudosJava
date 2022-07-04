@@ -3,11 +3,11 @@ package Testes;
 public class testeConta {
     
     public static void main(String[] args) {
-        
-        ContaCorrente cc = new ContaCorrente(111,111);
+        //Full Qualified Name FQN = nome pacote + obj
+        modelo.ContaCorrente cc = new modelo.ContaCorrente(111,111);
         cc.deposita(100.0);
 
-        ContaPoupanca cp = new ContaPoupanca(222,222);
+        modelo.ContaPoupanca cp = new modelo.ContaPoupanca(222,222);
         cp.deposita(200.0);
 
         cc.transfere(10.0 , cp);

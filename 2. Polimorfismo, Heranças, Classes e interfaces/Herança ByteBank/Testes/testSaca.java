@@ -4,7 +4,7 @@ import javax.security.sasl.SaslException;
 
 public class testSaca {
     public static void main(String[] args) {
-        Conta conta = new ContaCorrente(123, 321);
+        modelo.Conta conta = new modelo.ContaCorrente(123, 321);
 
         conta.deposita(200.0);
         try{
