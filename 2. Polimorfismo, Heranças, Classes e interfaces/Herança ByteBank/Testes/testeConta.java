@@ -1,4 +1,4 @@
-package Herança;
+package Testes;
 
 public class testeConta {
     

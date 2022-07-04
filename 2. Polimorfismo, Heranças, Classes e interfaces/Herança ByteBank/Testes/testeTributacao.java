@@ -1,4 +1,4 @@
-package Herança;
+package Testes;
 
 public class testeTributacao {
 //classe destinada para aplicar tributação em contas poupança && corrente
