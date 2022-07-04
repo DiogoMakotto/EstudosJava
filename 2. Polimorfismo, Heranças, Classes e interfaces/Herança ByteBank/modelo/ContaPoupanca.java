@@ -1,4 +1,4 @@
-package Herança;
+package modelo;
 
 public class ContaPoupanca extends Conta {
 
