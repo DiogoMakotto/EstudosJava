@@ -62,7 +62,7 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
   2. [Paradigma da Orientação a Objetos](https://github.com/DiogoMakotto/EstudosJava/tree/main/2.%20Polimorfismo%2C%20Heran%C3%A7as%2C%20Classes%20e%20interfaces)
    ````
   - Polimorfismo 
-  - Herança / Projeto de uma instituição financeira [ByteBank](https://github.com/DiogoMakotto/EstudosJava/tree/main/2.%20Polimorfismo%2C%20Heran%C3%A7as%2C%20Classes%20e%20interfaces/ByteBank/banco)
+  - Herança / Projeto de uma instituição financeira (ByteBank)
   - Classes 
   - Interfaces
   ````  
