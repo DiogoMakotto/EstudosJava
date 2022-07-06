@@ -74,6 +74,10 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
   - Aplicando exceções
   - Finally e try with resources
   ````  
+  4. Principais bibliotecas
+  ```` 
+  - java.lang
+  ```` 
 
 <h4 align="center"> 
 	🚧  mais topicos em breve 🚀 Em construção...  🚧
