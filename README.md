@@ -77,7 +77,7 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
   4. Principais bibliotecas
   ```` 
   - Compactar um projeto em  .Jar(zip)
-  - Importar e utilizar Jar
+  - Importar e utilizar (Path)
   
   - Libs:
   	java.lang
