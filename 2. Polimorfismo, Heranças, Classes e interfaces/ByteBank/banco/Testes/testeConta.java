@@ -1,15 +1,18 @@
 package br.com.ByteBank.banco.Testes;
 
-import br.com.ByteBank.banco.modelo.*;
+import br.com.ByteBank.banco.modelo.ContaCorrente;
 
 public class testeConta {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws saldoInsuficiente {
+        
+        //ContaEspecial ce = new ContaEspecial(123, 5555);
+        
         //Full Qualified Name FQN = nome pacote + obj
-        modelo.ContaCorrente cc = new modelo.ContaCorrente(111,111);
+        ContaCorrente cc = new ContaCorrente(111,111);
         cc.deposita(100.0);
 
-        modelo.ContaPoupanca cp = new modelo.ContaPoupanca(222,222);
+        ContaPoupanca cp = new ContaPoupanca(222,222);
         cp.deposita(200.0);
 
         cc.transfere(10.0 , cp);
