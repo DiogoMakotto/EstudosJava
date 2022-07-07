@@ -74,13 +74,21 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
   - Aplicando exceções
   - Finally e try with resources
   ````  
-  4. Principais bibliotecas
+  4. [Principais bibliotecas](https://github.com/DiogoMakotto/EstudosJava/tree/main/4.%20Principais%20Bibliotecas)
   ```` 
   - Compactar um projeto em  .Jar(zip)
-  - Importar e utilizar (Path)
+  - Importar e utilizar (Build Path)
   
   - Libs:
   	java.lang
+		Class String
+			Contains 
+			isEmpty e trim 
+			lenght 
+			subString 
+			indexOf
+			charAt 
+			replace, toUpperCase e toLowerCase 
   ```` 
 
 <h4 align="center"> 
