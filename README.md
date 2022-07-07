@@ -81,14 +81,15 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
   
   - Libs:
   	java.lang
-		Class String
-			Contains 
-			isEmpty e trim 
-			lenght 
-			subString 
-			indexOf
-			charAt 
-			replace, toUpperCase e toLowerCase 
+	
+			Class String
+				* Contains 
+				* isEmpty e trim 
+				* lenght 
+				* subString 
+				* indexOf
+				* charAt 
+				* replace, toUpperCase e toLowerCase 
   ```` 
 
 <h4 align="center"> 
