@@ -90,6 +90,15 @@ Embora a maioria dos aplicativos Java modernos combinem o Java runtime e o aplic
 				* indexOf
 				* charAt 
 				* replace, toUpperCase e toLowerCase 
+				
+		java.util
+	
+			Class Array
+				* Coleções 
+				* Wrappers  
+				* Lambda expressions 
+				
+				
   ```` 
 
 <h4 align="center"> 
