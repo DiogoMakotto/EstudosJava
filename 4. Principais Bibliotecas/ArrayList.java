@@ -8,7 +8,7 @@ public class ArrayList {
 
         // ---------- ArrayList simples ----------
 
-        ArrayList<String> cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<String>(); //<Generics> mostra ao compilador a classe e o objeto
         cars.add("Volvo");      //.add adiciona elementos a lista
         cars.add("BMW");
         cars.add("Ford");
@@ -33,7 +33,7 @@ public class ArrayList {
         }
         //for (String i : fruits) {
         //    System.out.println(i);}
-      }
-    }
-    
+
+
+      }       
 }
