@@ -8,5 +8,5 @@ public class Wrapper { //Criando Objetos Wrapper
     System.out.println(myInt);
     System.out.println(myDouble);
     System.out.println(myChar);
-  }
 }
+
